@@ -11,6 +11,11 @@
   </script>
   <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
   <script defer src="script.js"></script>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
   <style>
     body {
       padding: 0;
@@ -53,6 +58,7 @@
   <form id="send-container">
     <input type="text" id="message-input">
     <button type="submit" id="send-button">Envoyer</button>
+    <button style="margin: 0 0 0 10px;" onclick="goBack()">Retour à l'accueil</button>
   </form>
 </body>
 </html>
