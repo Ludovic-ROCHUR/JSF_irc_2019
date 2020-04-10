@@ -9,6 +9,6 @@ Project of an IRC server in NodeJS and ExpressJS with Socket.io. Our project acc
 
 To use the project :
 
-`npm install`
-`npm run devStart`
-Go on this url : `http://127.0.0.1:3000/
+- `npm install`
+- `npm run devStart`
+- Go on this url : `http://127.0.0.1:3000/
