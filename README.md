@@ -1,4 +1,4 @@
-# YouShallNotPass
+# JSF_irc
 
 Project of an IRC server in NodeJS and ExpressJS with Socket.io. Our project accept several simultaneous connections and implement the notion of channels:
 
